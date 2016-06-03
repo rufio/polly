@@ -10,7 +10,10 @@
     
 
 
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="css/minimal.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/medias.css">
+
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
 
@@ -29,15 +32,9 @@
 
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/backstretch.js"></script>
 
 
-  
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/style.css">
-    <!--<![endif]-->
   
 
 
@@ -47,70 +44,40 @@
 
 </head>
 <body>
+<div id="background"></div>
+<div class="row content">
+		<div class="col-6">
+			<div class="outer">
+				<div class="nav-box">
+					<div class="inner">
+						<div class="brand">
+				        			<i>Polly C</i>
+					    </div>
+			        	<div class="blurb">
+			        			<p>WEDDING AND LIFESTYLE<br />
+			        				PHOTOGRAPHER</p>
+			        	</div>
+			        	<div class="first nav">
+			        		<p>WEDDING</p>
+			        	</div>
+			        	<div class="second nav">
+			        		<p>LIFESTYLE</p>
+			        	</div>
+			        </div>
+				</div>
+			</div>
+		</div>
 
-
-
-<div class="content-wrapper">
-    <div class="content">
-    	<div class="pure-g">
-	        <div class="pure-u-1-2">
-
-	        	<div class="nav-container">
-	        		<div class="brand">
-	        			<i>Polly C</i>
-		        	</div>
-		        	<div class="blurb">
-		        			<p>WEDDING AND LIFESTYLE<br />
-		        				PHOTOGRAPHER</p>
-		        	</div>
-		        	<div class="nav">
-		        		<p>WEDDING</p>
-		        	</div>
-		        	<div class="nav second">
-		        		<p>LIFESTYLE</p>
-		        	</div>
-		        </div>
-	        </div>
-	        <div class="pure-u-1-2">
-	        	
-	        </div>
-    	</div>
-       
-    </div>
-
-
+		
 </div>
 
-
-
-
-<script>
-	$(document).ready(function(){
-		$(window).load(function() {    
-
-	var theWindow        = $(window),
-	    $bg              = $("#bg"),
-	    aspectRatio      = $bg.width() / $bg.height();
-	    			    		
-	function resizeBg() {
 		
-		if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
-		    $bg
-		    	.removeClass()
-		    	.addClass('bgheight');
-		} else {
-		    $bg
-		    	.removeClass()
-		    	.addClass('bgwidth');
-		}
-					
-	}
-	                   			
-	theWindow.resize(resizeBg).trigger("resize");
+		
+ 
+       
 
-});
-	});
-</script>
+
+
 
 </body>
 </html>
